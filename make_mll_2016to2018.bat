@@ -1,3 +1,8 @@
+@rem https://github.com/digitaldestructo/DDConvexHull
+@rem 注意: 这个bat用于编译多个Maya版本的DDConvexHull插件, 作为QuickCollider插件的一部分
+@rem 需要有cmake3.x, 各版本Maya devkit, VS2017, cgcmake(https://github.com/chadmv/cgcmake)
+@rem 各版本mll放在C:\dev\NBTATOOLS\Maya\plug-ins\DDConvexHull,通过.mod文件使用(C:\dev\NBTATOOLS\Maya\modules\2018\DDConvexHull.mod)
+
 echo cmake compile DDConvexHull for Maya2016~2018
 
 mkdir build
